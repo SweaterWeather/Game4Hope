@@ -1,0 +1,50 @@
+body {
+    background: url(../img/bg.jpg) center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.logo {
+    background: url(../img/logo.png);
+    position: absolute;
+    top: 40px;
+    left: 16px;
+    width: 435px;
+    height: 83px;
+}
+
+header {
+    background: url(../img/bg-glass.png);
+    width: 900px;
+    height: 133px;
+    margin: auto;
+    position: relative;
+}
+
+.donate {
+    background: url(../img/donate-button.png);
+    position: absolute;
+    right: 16px;
+    top: 40px;
+    width: 85px;
+    height: 41px;
+}
+
+.donate:hover{
+    background-position: right top;
+    background-position: 85px 0px;
+}
+
+nav {
+    vertical-align: bottom;
+}
+
+nav a{
+    position: relative;
+    float:left;
+    padding: 13px;
+    top: 133px;
+    width: 67px;
+    height: 39px;
+    text-align: center;
+}
