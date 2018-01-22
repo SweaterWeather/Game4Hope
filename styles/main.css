@@ -91,7 +91,19 @@ a {
 }
 
 #main-donate {
-    
+    padding-left: 20px;
+    padding-top: 102px;
+    padding-bottom: 166px;
+}
+
+#main-donate p{
+    margin-top: 38px;
+    margin-bottom: 40px;
+}
+
+#main-donate section {
+    width: 450px;
+    margin-left: 272px;
 }
 
 #main-play {
@@ -99,7 +111,7 @@ a {
 }
 
 .main{
-    width: 820px;
+    width: 840px;
     margin: 39px auto;
     top: 20px;
     position: relative;
@@ -147,9 +159,27 @@ a {
     top: 0px;
 }
 #heart{
+    position: absolute;
     left:0px;
     top: 46px;
     width: 233px;
     height: 280px;
     background: url(../img/heart.png);
+}
+
+#paypall {
+    float:right;
+    width: 240px;
+    height: 40px;
+    background: url(../img/paypal.jpg);
+    margin-right: 330px;
+    margin-bottom: 20px;
+}
+
+#wepay {
+    float: right;
+    width: 240px;
+    height: 40px;
+    background: url(../img/wepay.jpg);
+    margin-right: 330px;
 }
