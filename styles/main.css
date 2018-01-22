@@ -1,8 +1,9 @@
 body {
     background: url(../img/bg.jpg) center;
-    height: 100vh;
+    height: 1400px;
     padding: 0px;
     margin: 0px;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 .logo {
     background: url(../img/logo.png);
@@ -35,16 +36,42 @@ header {
     background-position: 85px 0px;
 }
 
-nav {
-    vertical-align: bottom;
+nav{
+    position:absolute;
+    left: 34px;
 }
 
 nav a{
     position: relative;
     float:left;
-    padding: 13px;
+    margin: 0px 6px;
     top: 133px;
     width: 67px;
     height: 39px;
     text-align: center;
+    line-height: 2.5;
+    font-size: 16px;
+    text-decoration: none;
+    color: #90abc0;
+}
+
+nav a:hover, #current{
+    background: #ffffff80;
+    color: #fff;
+}
+
+h1{
+    font-family: "Georgia", serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #fff;
+}
+
+p, address, time {
+    font-size: 13px;
+    color: #ccc;
+}
+
+.special {
+    color: red;
 }
