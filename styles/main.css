@@ -39,13 +39,13 @@ header {
 nav{
     position:absolute;
     left: 34px;
+    top: 133px;
 }
 
 nav a{
     position: relative;
     float:left;
     margin: 0px 6px;
-    top: 133px;
     width: 67px;
     height: 39px;
     text-align: center;
@@ -56,7 +56,7 @@ nav a{
 }
 
 nav a:hover, #current{
-    background: #ffffff80;
+    background:  linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,.2) 50%,rgba(255,255,255,0) 100%); 
     color: #fff;
 }
 
@@ -72,6 +72,36 @@ p, address, time {
     color: #ccc;
 }
 
+a {
+    color: #5a92df;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+}
+
 .special {
-    color: red;
+    color: #99771c;
+}
+
+#main-index {
+    
+}
+
+#main-donate {
+    
+}
+
+#main-play {
+    
+}
+
+.main{
+    width: 900px;
+    margin: auto;
+    top: 0px;
+    position: relative;
+    background: black;
+    
+    border: 20px solid black;
+    border-radius: 360px;
 }
