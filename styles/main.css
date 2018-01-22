@@ -146,3 +146,10 @@ a {
     right: 0px;
     top: 0px;
 }
+#heart{
+    left:0px;
+    top: 46px;
+    width: 233px;
+    height: 280px;
+    background: url(../img/heart.png);
+}
