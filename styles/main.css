@@ -108,6 +108,10 @@ a {
 
 #main-play {
     
+    padding-top: 60px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 20px;
 }
 
 .main{
@@ -132,7 +136,7 @@ a {
     
     border: 1px solid #ffffff40;
     border-radius: 10px;
-    z-index: -1;
+    z-index: -2;
 }
 
 #sec1 p{
@@ -186,6 +190,20 @@ a {
 
 table{
     background: #321000;
+    border: 1px solid #99771c;
+    border-radius: 5px;
+    margin: 0px;
+    width: 820px;
+    height: 350px;
+    border-spacing: 20px;
+}
+
+table h1{
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9ad2ff;
 }
 
 select, input {
@@ -208,4 +226,43 @@ select, input {
 #submit:hover{
     background-position: right top;
     background-position: 79px 0px;
+}
+
+tr, th{
+    padding:0px;
+    margin: 0px;
+}
+
+th{
+    border-top: 1px dashed #fff;
+}
+
+tr:first-child th{
+    border: none;
+}
+
+address{
+    margin-bottom: 63px;
+    margin-top: 30px;
+}
+
+#playsec1{
+    width: 375px;
+    margin-bottom: 30px;
+}
+
+#playsec2{
+    margin-bottom: 63px;
+}
+
+#playsec3{
+    
+}
+#game-img {
+    width: 737px;
+    height: 589px;
+    background: url(../img/game-icons.png);
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
