@@ -187,3 +187,25 @@ a {
 table{
     background: #321000;
 }
+
+select, input {
+    padding: 0px;
+    width: 275px;
+    height: 30px; 
+    
+    border: 0px solid black;
+    border-radius: 5px;
+}
+#submit {
+    height: 35px;
+    width: 79px;
+    
+    background: url(../img/submit-button.png);
+    border: none;
+    padding: 0px;
+}
+
+#submit:hover{
+    background-position: right top;
+    background-position: 79px 0px;
+}
